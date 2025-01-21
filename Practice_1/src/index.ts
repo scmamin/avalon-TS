@@ -19,5 +19,6 @@ const getUsersJobPositions = (users: User[]): UserJobPosition[] => {
     };
   });
 };
+
 const usersPositions = getUsersJobPositions(usersArray);
 console.log("userPositions", usersPositions);
